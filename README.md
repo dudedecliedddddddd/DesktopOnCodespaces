@@ -38,7 +38,7 @@ it's very simple to install, there is a pseudo-graphical installer.
 first start a new codespace https://github.com/codespaces/new
 to install just copy and paste this command in your codespace terminal
 ```
-curl -O https://raw.githubusercontent.com/quantumnova87/DesktopOnCodespaces/refs/heads/main/install.sh
+curl -O https://raw.githubusercontent.com/dudedecliedddddddd/DesktopOnCodespaces/refs/heads/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
