@@ -19,6 +19,7 @@ else
     docker run -d --name=DesktopOnCodespaces -e PUID=1000 -e PGID=1000 --security-opt seccomp=unconfined -e TZ=Etc/UTC -e SUBFOLDER=/ -e TITLE=GamingOnCodespaces -p 3000:3000 --shm-size="2gb" -v $(pwd)/Save:/config --restart unless-stopped desktoponcodespaces
 fi
 clear
+sudo su
 echo "**** Fixing broken dependencies ****"
 apt update
 apt --fix-broken install -y
